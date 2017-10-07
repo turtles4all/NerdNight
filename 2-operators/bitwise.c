@@ -21,11 +21,11 @@ int main() {
 
 	c = ~a;          /*-61 = 1100 0011 */
 	printf("Line 4 - Value of c is %d\n", c );
-
+    a = 12;
 	c = a << 2;     /* 240 = 1111 0000 */
 	printf("Line 5 - Value of c is %d\n", c );
 
-	c = a >> 2;     /* 15 = 0000 1111 */
+	c = c >> 2;     /* 15 = 0000 1111 */
 	printf("Line 6 - Value of c is %d\n", c );
 
 	return 0;

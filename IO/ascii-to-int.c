@@ -11,7 +11,7 @@ int main(int argc, char **argv)
 {
 	
 	int port;
-	port = atoi(argv[1]);
+	port = atoi((char *)argv[1]);
 	
 	printf("\nPort number is : %d\n", port);
 	
